@@ -1,0 +1,21 @@
+/* Query Pagination Block */
+.wp-block-query-pagination {
+	padding: 0.5rem;
+
+	> .wp-block-query-pagination-numbers {
+		margin-bottom: 0;
+	}
+
+	.page-numbers {
+		display: inline-block;
+		padding: 0.5rem 1rem;
+		font-weight: bold;
+		text-decoration: none;
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-decoration: underline;
+		}
+	}
+}

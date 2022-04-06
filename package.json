@@ -1,0 +1,66 @@
+{
+  "name": "driven",
+  "version": "1.0.0",
+  "description": "Driven WordPress Theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "export": "git archive HEAD -9 --prefix driven/ --format=zip > ../../driven.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThemeZee/driven.git"
+  },
+  "author": "ThemeZee",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ThemeZee/driven/issues"
+  },
+  "homepage": "https://github.com/ThemeZee/driven#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "postcss-sorting": "^5.0.1",
+    "postcss-wprtl": "^1.2.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-wordpress": "^14.0.0"
+  },
+  "stylelint": {
+    "extends": [
+      "stylelint-config-wordpress",
+      "stylelint-config-wordpress/scss"
+    ],
+    "rules": {
+      "indentation": "tab",
+      "no-descending-specificity": null,
+      "font-weight-notation": "named-where-possible",
+      "rule-empty-line-before": [
+        "always",
+        {
+          "ignore": [
+            "first-nested",
+            "after-comment"
+          ]
+        }
+      ],
+      "at-rule-empty-line-before": [
+        "always",
+        {
+          "except": [
+            "inside-block"
+          ],
+          "ignore": [
+            "after-comment",
+            "blockless-after-same-name-blockless"
+          ]
+        }
+      ]
+    }
+  }
+}

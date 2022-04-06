@@ -1,0 +1,17 @@
+/* Button Block */
+.wp-block-button {
+	.wp-block-button__link:hover,
+	.wp-block-button__link:active {
+		text-decoration: underline;
+	}
+
+	&:not(.is-style-outline) .wp-block-button__link:not(.has-background):not(.has-text-color):hover,
+	&:not(.is-style-outline) .wp-block-button__link:not(.has-background):not(.has-text-color):active {
+		background-color: var(--wp--preset--color--secondary);
+		text-decoration: none;
+	}
+}
+
+.wp-block-button__link {
+	padding: calc(0.6rem + 2px) calc(1.2rem + 2px);
+}

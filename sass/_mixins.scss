@@ -1,0 +1,70 @@
+// Font Family Variable.
+@mixin font-family($fontVar) {
+	font-family: map-get($themeFonts, $fontVar);
+	font-family: var($themeSlug + $fontVar);
+}
+
+// Rem output with px fallback.
+@mixin font-size($sizeValue: 1) {
+	font-size: $sizeValue * 1px;
+	font-size: ($sizeValue / 16) * 1rem;
+}
+
+// Font Weight Variable.
+@mixin font-weight($fontVar) {
+	font-weight: map-get($fontWeight, $fontVar);
+	font-weight: var($themeSlug + $fontVar);
+}
+
+// Text Transform Variable.
+@mixin text-transform($textVar) {
+	text-transform: map-get($textTransform, $textVar);
+	text-transform: var($themeSlug + $textVar);
+}
+
+// Line Height Variable
+@mixin line-height($lineVar) {
+	line-height: map-get($lineHeight, $lineVar);
+	line-height: var($themeSlug + $lineVar);
+}
+
+// Color CSS Variable.
+@mixin color($colorVar) {
+	color: map-get($themeColors, $colorVar);
+	color: var($themeSlug + $colorVar);
+}
+
+// Background CSS Variable.
+@mixin background($colorVar) {
+	background-color: map-get($themeColors, $colorVar);
+	background-color: var($themeSlug + $colorVar);
+}
+
+// Color CSS Variable
+@mixin border-color($colorVar) {
+	border-color: map-get($themeColors, $colorVar);
+	border-color: var($themeSlug + $colorVar);
+}
+
+// Color CSS Variable
+@mixin border-top-color($colorVar) {
+	border-top-color: map-get($themeColors, $colorVar);
+	border-top-color: var($themeSlug + $colorVar);
+}
+
+// Color CSS Variable
+@mixin border-bottom-color($colorVar) {
+	border-bottom-color: map-get($themeColors, $colorVar);
+	border-bottom-color: var($themeSlug + $colorVar);
+}
+
+// Fill Icon CSS Variable.
+@mixin fill($colorVar) {
+	fill: map-get($themeColors, $colorVar);
+	fill: var($themeSlug + $colorVar);
+}
+
+// CSS Variable
+@mixin variable($variable, $map) {
+	#{$themeSlug + $variable}: map-get($map, $variable);
+}

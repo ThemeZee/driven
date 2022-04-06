@@ -1,0 +1,11 @@
+/* Post Meta */
+.is-style-post-meta.wp-block-group {
+	padding: 5px 10px;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	gap: 0 1.5rem;
+
+	> .wp-block-group {
+		gap: 0.3rem;
+	}
+}

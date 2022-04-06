@@ -1,0 +1,59 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	margin: 0;
+	padding: calc(0.6rem + 2px) calc(1.2rem + 2px);
+	border: none;
+	color: var(--wp--preset--color--white);
+	background-color: var(--wp--preset--color--primary);
+	text-decoration: none;
+	font-weight: normal;
+	font-size: var(--wp--preset--font-size--small);
+	line-height: inherit;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	color: var(--wp--preset--color--white);
+	background-color: var(--wp--preset--color--secondary);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	padding: 0.3em 0.6em;
+	max-width: 100%;
+	border: 1px solid #ddd;
+	color: #777;
+	background: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+	border: 1px solid #aaa;
+	color: #111;
+	outline: none;
+}
+
+textarea {
+	overflow: auto;
+	width: 100%;
+}

@@ -1,0 +1,12 @@
+/* Flip Link Hover */
+.is-style-flip-link-hover {
+	a {
+		text-decoration: none;
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-decoration: underline;
+		}
+	}
+}

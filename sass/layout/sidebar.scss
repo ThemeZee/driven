@@ -1,0 +1,17 @@
+/* Change breakproint of main sidebar layout */
+@media (max-width: 880px) {
+	.site-content > .wp-block-columns {
+		&:not(.is-not-stacked-on-mobile) {
+			flex-wrap: wrap;
+
+			> .wp-block-column {
+				flex-basis: 100% !important;
+
+				&:not(:first-child) {
+					margin-top: var(--wp--style--block-gap, 2em);
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}

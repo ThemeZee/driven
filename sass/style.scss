@@ -1,0 +1,100 @@
+/*
+Theme Name: Driven
+Theme URI: https://themezee.com/themes/driven/
+Author: ThemeZee
+Author URI: https://themezee.com/
+Description: Driven is an experimental block theme featuring a classic two column layout with a right sidebar. With its clean and modern design the theme is perfectly suited for starting a simple blog or news site. Without many bells and whistles, it is an easy way to try out the new Full Site Editing experience of WordPress.
+Version: 1.0
+Requires at least: 5.9
+Tested up to: 5.9
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: driven
+Tags: full-site-editing, template-editing, one-column, blog, news, custom-background, custom-logo, custom-header, custom-menu, grid-layout, entertainment, editor-style, block-styles, block-patterns, rtl-language-support, featured-images, flexible-header, custom-colors, full-width-template, sticky-post, threaded-comments, translation-ready, theme-options, two-columns, three-columns
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# - HTML Elements
+# - Theme Layout
+# - Theme Blocks
+# - Query Blocks
+# - Layout Blocks
+# - Textformatting Blocks
+# - Block Styles
+--------------------------------------------------------------*/
+
+@import "_mixins";
+
+/*--------------------------------------------------------------
+# - HTML Elements
+--------------------------------------------------------------*/
+@import "elements/paragraphs";
+@import "elements/headings";
+@import "elements/links";
+@import "elements/hr";
+@import "elements/formatted";
+@import "elements/quotes";
+@import "elements/lists";
+@import "elements/tables";
+@import "elements/media";
+@import "elements/forms";
+
+/*--------------------------------------------------------------
+# - Theme Layout
+--------------------------------------------------------------*/
+@import "layout/spacing";
+@import "layout/header";
+@import "layout/content";
+@import "layout/sidebar";
+@import "layout/footer";
+
+/*--------------------------------------------------------------
+# - Theme Blocks
+--------------------------------------------------------------*/
+@import "blocks/site-logo";
+@import "blocks/navigation";
+@import "blocks/social-links";
+
+/*--------------------------------------------------------------
+# - Query Blocks
+--------------------------------------------------------------*/
+@import "blocks/post-title";
+@import "blocks/post-author";
+@import "blocks/post-excerpt";
+@import "blocks/post-comments";
+@import "blocks/query-pagination";
+
+/*--------------------------------------------------------------
+# - Layout Blocks
+--------------------------------------------------------------*/
+@import "blocks/group";
+@import "blocks/button";
+@import "blocks/search";
+
+/*--------------------------------------------------------------
+# - Textformatting Blocks
+--------------------------------------------------------------*/
+@import "blocks/quote";
+@import "blocks/pullquote";
+@import "blocks/separator";
+
+/*--------------------------------------------------------------
+# - Media Blocks
+--------------------------------------------------------------*/
+@import "blocks/audio";
+@import "blocks/image";
+@import "blocks/gallery";
+@import "blocks/table";
+
+/*--------------------------------------------------------------
+# - Block Styles
+--------------------------------------------------------------*/
+@import "styles/flip-link-hover";
+@import "styles/post-meta";
+@import "styles/widget-title";

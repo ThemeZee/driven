@@ -1,0 +1,19 @@
+/* Search Block */
+.wp-block-search__button {
+	padding: calc(0.6rem + 2px) calc(1.2rem + 2px);
+	border: none;
+	color: var(--wp--preset--color--white);
+	background-color: var(--wp--preset--color--primary);
+	text-decoration: none;
+	font-weight: normal;
+	font-size: var(--wp--preset--font-size--small);
+	line-height: inherit;
+	cursor: pointer;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: var(--wp--preset--color--white);
+		background-color: var(--wp--preset--color--secondary);
+	}
+}

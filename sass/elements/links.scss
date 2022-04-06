@@ -1,0 +1,18 @@
+a {
+	text-decoration: underline;
+}
+
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}

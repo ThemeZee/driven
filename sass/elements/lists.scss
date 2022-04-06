@@ -1,0 +1,28 @@
+ul,
+ol {
+	margin: var(--wp--custom--spacing--elements) 0;
+	padding: 0 0 0 var(--wp--custom--spacing--elements);
+}
+
+ul {
+	list-style: circle;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+	margin-left: var(--wp--custom--spacing--elements);
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 var(--wp--custom--spacing--elements);
+}

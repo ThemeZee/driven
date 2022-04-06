@@ -1,0 +1,39 @@
+/* Post Comments Block */
+.wp-block-post-comments {
+	.commentlist {
+		margin-bottom: 2rem;
+
+		.comment {
+			margin-bottom: var(--wp--custom--spacing--elements);
+
+			.comment-metadata {
+				font-size: 15px;
+			}
+
+			p {
+				margin-top: var(--wp--custom--spacing--elements);
+				margin-bottom: var(--wp--custom--spacing--elements);
+				font-size: inherit;
+				line-height: var(--wp--custom--typography--line-height--text);
+			}
+		}
+
+		.children {
+			margin-top: var(--wp--custom--spacing--elements);
+		}
+	}
+
+	.comment-respond {
+		.comment-reply-title {
+			margin: 0;
+		}
+
+		p {
+			font-size: inherit;
+		}
+
+		.form-submit {
+			margin-bottom: 0;
+		}
+	}
+}

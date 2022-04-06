@@ -1,0 +1,27 @@
+table {
+	width: 100%;
+	border: none;
+	table-layout: auto;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+thead {
+	border-bottom: 3px solid #ddd;
+}
+
+tfoot {
+	border-top: 3px solid #ddd;
+}
+
+th,
+td {
+	padding: 0.5rem 0.8rem;
+	border: 1px solid #ddd;
+	word-break: normal;
+}
+
+th {
+	font-weight: bold;
+	text-align: initial;
+}

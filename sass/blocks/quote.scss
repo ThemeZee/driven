@@ -1,0 +1,32 @@
+/* Quote Block */
+.wp-block-quote {
+	&.has-text-align-center:not(.is-style-large),
+	&.has-text-align-right:not(.is-style-large) {
+		padding-left: 0;
+		border-left: 0;
+	}
+
+	&.has-text-align-right:not(.is-style-large) {
+		padding-right: 1.5rem;
+		border-right: 5px solid #ddd;
+	}
+
+	&.is-style-large {
+		padding: 0;
+		border: none;
+		@include font-size(28);
+
+		p {
+			font-size: inherit;
+			font-style: inherit;
+			line-height: inherit;
+		}
+
+		cite,
+		footer,
+		&__citation {
+			text-align: inherit;
+			@include font-size(16);
+		}
+	}
+}

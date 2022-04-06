@@ -1,0 +1,52 @@
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+address {
+	margin-top: var(--wp--custom--spacing--elements);
+	margin-bottom: var(--wp--custom--spacing--elements);
+}
+
+pre {
+	overflow: auto;
+	margin-top: var(--wp--custom--spacing--elements);
+	margin-bottom: var(--wp--custom--spacing--elements);
+	padding: 1rem 1.25rem;
+	max-width: 100%;
+	border: 1px solid #ddd;
+	@include font-size(15);
+	font-family: Menlo, Consolas, monaco, monospace;
+}
+
+code,
+kbd,
+tt,
+var {
+	@include font-size(15);
+	font-family: Menlo, Consolas, monaco, monospace;
+	border: none;
+	padding: 2px 5px;
+}
+
+pre code {
+	background: none;
+	padding: 0;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px solid #ddd;
+	cursor: help;
+}
+
+mark,
+ins {
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}

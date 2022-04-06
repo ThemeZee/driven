@@ -1,0 +1,56 @@
+/* Pullquote Block */
+.wp-block-pullquote {
+	margin: var(--wp--custom--spacing--elements) 0;
+	padding: 0;
+	border-bottom: 5px solid #ddd;
+	border-top: 5px solid #ddd;
+
+	blockquote {
+		border: none;
+		padding: 0;
+		@include font-size(28);
+
+		cite,
+		footer,
+		&__citation {
+			@include font-size(16);
+		}
+	}
+
+	p {
+		font-size: inherit;
+		line-height: inherit;
+	}
+
+	&.alignleft p,
+	&.alignright p {
+		font-size: 0.75em;
+	}
+
+	&.is-style-solid-color {
+		padding: 1px 2rem;
+		border: none;
+
+		blockquote {
+			margin-left: 0;
+			margin-right: 0;
+			max-width: 100%;
+
+			p {
+				margin: 1.75rem 0 1rem;
+				font-size: inherit;
+			}
+
+			cite,
+			footer,
+			&__citation {
+				color: inherit;
+			}
+		}
+	}
+
+	.wp-block-pullquote__citation {
+		@include font-size(16);
+		text-transform: none;
+	}
+}
