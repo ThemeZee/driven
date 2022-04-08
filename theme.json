@@ -42,38 +42,28 @@
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#0077b6",
+					"color": "#e34333",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#005e9d",
+					"color": "#c92919",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#004483",
+					"color": "#a10100",
 					"name": "Tertiary"
 				},
 				{
 					"slug": "accent",
-					"color": "#e63946",
+					"color": "#33a2e3",
 					"name": "Accent"
 				},
 				{
 					"slug": "highlight",
-					"color": "#ffb703",
+					"color": "#7aca56",
 					"name": "Highlight"
-				},
-				{
-					"slug": "light-background",
-					"color": "#e5e5e5",
-					"name": "Light Background"
-				},
-				{
-					"slug": "dark-background",
-					"color": "#353535",
-					"name": "Dark Background"
 				},
 				{
 					"slug": "white",
@@ -82,22 +72,22 @@
 				},
 				{
 					"slug": "light-gray",
-					"color": "#f5f5f5",
+					"color": "#f0f0f0",
 					"name": "Light Gray"
 				},
 				{
 					"slug": "gray",
-					"color": "#a5a5a5",
+					"color": "#808080",
 					"name": "Gray"
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#656565",
+					"color": "#303030",
 					"name": "Dark Gray"
 				},
 				{
 					"slug": "black",
-					"color": "#101010",
+					"color": "#000000",
 					"name": "Black"
 				}
 			]
@@ -132,14 +122,9 @@
 			"textTransform": true,
 			"fontFamilies": [
 				{
-					"fontFamily": "Barlow, Arial, Verdana",
-					"name": "Barlow",
-					"slug": "barlow"
-				},
-				{
-					"fontFamily": "Inter, Arial, Verdana",
-					"name": "Inter",
-					"slug": "inter"
+					"fontFamily": "Roboto, Arial, Verdana",
+					"name": "Roboto",
+					"slug": "roboto"
 				}
 			],
 			"fontSizes": [
@@ -152,20 +137,24 @@
 					"slug": "small"
 				},
 				{
-					"size": "18px",
+					"size": "24px",
 					"slug": "medium"
 				},
 				{
-					"size": "24px",
+					"size": "28px",
 					"slug": "large"
 				},
 				{
-					"size": "26px",
+					"size": "36px",
 					"slug": "x-large"
 				},
 				{
-					"size": "32px",
+					"size": "48px",
 					"slug": "huge"
+				},
+				{
+					"size": "64px",
+					"slug": "gigantic"
 				}
 			]
 		},
@@ -204,7 +193,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontSize": "var(--wp--preset--font-size--huge)",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
@@ -217,7 +206,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
@@ -230,7 +219,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
@@ -243,7 +232,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontSize": "22px",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
@@ -256,7 +245,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontSize": "20px",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
@@ -269,7 +258,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
 					"fontSize": "18px",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
@@ -282,7 +271,7 @@
 		},
 		"typography": {
 			"fontSize": "var(--wp--custom--typography--font-size--text)",
-			"fontFamily": "var(--wp--preset--font-family--barlow)",
+			"fontFamily": "var(--wp--preset--font-family--roboto)",
 			"lineHeight": "var(--wp--custom--typography--line-height--text)"
 		},
 		"spacing": {
