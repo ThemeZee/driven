@@ -1,0 +1,12 @@
+/* Site Title Block */
+.wp-block-site-title {
+	a {
+		text-decoration: none;
+
+		&:hover,
+		&:focus,
+		&:active {
+			opacity: 0.6;
+		}
+	}
+}

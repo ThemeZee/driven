@@ -237,7 +237,6 @@ figcaption,
 	text-align: center;
 }
 
-button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -252,15 +251,12 @@ input[type="submit"] {
 	line-height: inherit;
 }
 
-button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover,
-button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
 input[type="submit"]:focus,
-button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
@@ -345,6 +341,15 @@ textarea {
 /*--------------------------------------------------------------
 # - Theme Blocks
 --------------------------------------------------------------*/
+
+/* Site Title Block */
+.wp-block-site-title a {
+	text-decoration: none;
+}
+
+.wp-block-site-title a:hover, .wp-block-site-title a:focus, .wp-block-site-title a:active {
+	opacity: 0.6;
+}
 
 /* Navigation Block */
 .wp-block-navigation .wp-block-navigation__container {
