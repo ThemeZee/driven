@@ -12,6 +12,13 @@
  */
 function driven_register_block_styles() {
 
+	// Register Main Navigation block style.
+	register_block_style( 'core/navigation', array(
+		'name'         => 'main-navigation',
+		'label'        => esc_html__( 'Main Navigation', 'driven' ),
+		'style_handle' => 'driven-stylesheet',
+	) );
+
 	// Register Post Meta block style.
 	register_block_style( 'core/group', array(
 		'name'         => 'post-meta',
