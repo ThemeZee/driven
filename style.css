@@ -346,11 +346,6 @@ textarea {
 # - Theme Blocks
 --------------------------------------------------------------*/
 
-/* Site Logo Block */
-.wp-block-site-logo {
-	margin-right: 1rem !important;
-}
-
 /* Navigation Block */
 .wp-block-navigation .wp-block-navigation__container {
 	gap: 1rem;
