@@ -1,0 +1,17 @@
+/* Underlined Heading */
+.is-style-underlined-heading {
+	position: relative;
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+
+	&::before {
+		display: inline-block;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 2em;
+		height: 4px;
+		content: "";
+		background-color: var(--wp--preset--color--primary);
+	}
+}

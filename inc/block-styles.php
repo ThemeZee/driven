@@ -26,10 +26,10 @@ function driven_register_block_styles() {
 		'style_handle' => 'driven-stylesheet',
 	) );
 
-	// Register Widget Title block style.
+	// Register Underlined Heading block style.
 	register_block_style( 'core/heading', array(
-		'name'         => 'widget-title',
-		'label'        => esc_html__( 'Widget Title', 'driven' ),
+		'name'         => 'underlined-heading',
+		'label'        => esc_html__( 'Underlined', 'driven' ),
 		'style_handle' => 'driven-stylesheet',
 	) );
 

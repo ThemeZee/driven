@@ -701,9 +701,20 @@ textarea {
 	gap: 0.3rem;
 }
 
-/* Widget Title */
-.is-style-widget-title {
-	padding-bottom: 5px;
-	border-bottom: 1px solid #e8e8e8;
-	font-size: 20px;
+/* Underlined Heading */
+.is-style-underlined-heading {
+	position: relative;
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+}
+
+.is-style-underlined-heading::before {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 2em;
+	height: 4px;
+	content: "";
+	background-color: var(--wp--preset--color--primary);
 }
