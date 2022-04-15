@@ -173,7 +173,7 @@
 			]
 		},
 		"spacing": {
-			"blockGap": "var(--driven--layout-spacing)",
+			"blockGap": "var(--wp--custom--spacing--elements)",
 			"padding": true,
 			"margin": true,
 			"units": [ "px", "em", "rem", "vh", "vw", "%" ]
@@ -289,7 +289,7 @@
 			"lineHeight": "var(--wp--custom--typography--line-height--text)"
 		},
 		"spacing": {
-			"blockGap": "var(--driven--layout-spacing)"
+			"blockGap": "var(--wp--custom--spacing--elements)"
 		}
 	}
 }
