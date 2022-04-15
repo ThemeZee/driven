@@ -56,6 +56,16 @@
 					"name": "Tertiary"
 				},
 				{
+					"slug": "foreground",
+					"color": "#303030",
+					"name": "Foreground"
+				},
+				{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
 					"slug": "accent",
 					"color": "#33a2e3",
 					"name": "Accent"
@@ -82,7 +92,7 @@
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#303030",
+					"color": "#202020",
 					"name": "Dark Gray"
 				},
 				{
@@ -181,8 +191,8 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--white)",
-			"text": "var(--wp--preset--color--black)"
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--foreground)"
 		},
 		"elements": {
 			"h1": {
