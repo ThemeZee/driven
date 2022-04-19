@@ -2,13 +2,13 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 	margin: 0;
-	padding: calc(0.6rem + 2px) calc(1.2rem + 2px);
+	padding: calc(0.75rem + 2px) calc(1.25rem + 2px);
 	border: none;
 	color: var(--wp--preset--color--white);
 	background-color: var(--wp--preset--color--primary);
 	text-decoration: none;
-	font-weight: normal;
-	font-size: var(--wp--preset--font-size--small);
+	font-weight: bold;
+	font-size: var(--wp--preset--font-size--normal);
 	line-height: inherit;
 }
 

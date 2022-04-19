@@ -3,13 +3,21 @@
 	.wp-block-post-excerpt__more-text {
 		margin-bottom: 0;
 
-		a {
+		.wp-block-post-excerpt__more-link {
+			margin: 0;
+			padding: calc(0.75rem + 2px) calc(1.25rem + 2px);
+			border: none;
+			color: var(--wp--preset--color--white);
+			background-color: var(--wp--preset--color--primary);
 			text-decoration: none;
+			font-weight: bold;
+			font-size: var(--wp--preset--font-size--normal);
 
 			&:hover,
 			&:focus,
 			&:active {
-				text-decoration: underline;
+				color: var(--wp--preset--color--white);
+				background-color: var(--wp--preset--color--secondary);
 			}
 		}
 	}
