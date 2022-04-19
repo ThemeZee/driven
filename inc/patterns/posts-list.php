@@ -15,9 +15,9 @@ return array(
 
 								<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0px"}}}} /-->
 
-								<!-- wp:pattern {"slug":"driven/postmeta-blog"} /-->
+								<!-- wp:pattern {"slug":"driven/postmeta"} /-->
 					
-								<!-- wp:post-title {"isLink":true} /-->
+								<!-- wp:post-title {"isLink":true,"className":"is-style-underlined-heading","fontSize":"huge"} /-->
 			
 								<!-- wp:post-excerpt {"moreText":"\u003cstrong\u003eContinue reading\u003c/strong\u003e","style":{"spacing":{"margin":{"bottom":"0px"}}}} /-->
 					

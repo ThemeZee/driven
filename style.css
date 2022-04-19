@@ -715,8 +715,8 @@ Remove CSS when 6.0 is released. */
 /* Underlined Heading */
 .is-style-underlined-heading {
 	position: relative;
-	margin-bottom: 1rem;
-	padding-bottom: 1rem;
+	margin-bottom: 0.75em !important;
+	padding-bottom: 0.75em;
 }
 
 .is-style-underlined-heading::before {
@@ -724,7 +724,7 @@ Remove CSS when 6.0 is released. */
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	width: 2em;
+	width: 1.5em;
 	height: 4px;
 	content: "";
 	background-color: var(--wp--preset--color--primary);

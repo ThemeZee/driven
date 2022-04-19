@@ -27,11 +27,15 @@ function driven_register_block_styles() {
 	) );
 
 	// Register Underlined Heading block style.
-	register_block_style( 'core/heading', array(
+	$underlined_heading_style = array(
 		'name'         => 'underlined-heading',
 		'label'        => esc_html__( 'Underlined', 'driven' ),
 		'style_handle' => 'driven-stylesheet',
-	) );
+	);
+
+	register_block_style( 'core/heading', $underlined_heading_style );
+	register_block_style( 'core/post-title', $underlined_heading_style );
+	register_block_style( 'core/query-title', $underlined_heading_style );
 
 	// Register Flip Link Hover block style.
 	$link_hover_style = array(
