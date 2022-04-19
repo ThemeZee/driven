@@ -19,8 +19,3 @@
 		--driven--layout-spacing: 4rem;
 	}
 }
-
-.site-content,
-.sidebar.wp-block-group > * + * {
-	margin-top: var(--driven--layout-spacing);
-}

@@ -10,14 +10,14 @@ return array(
 
 						<!-- wp:post-template -->
 
-							<!-- wp:group -->
-							<div class="wp-block-group">
+							<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"3.5vw"}}}} -->
+							<div class="wp-block-group" style="margin-bottom:3.5vw">
 
 								<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0px"}}}} /-->
 
 								<!-- wp:pattern {"slug":"driven/postmeta-blog"} /-->
 					
-								<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0px"}}}} /-->
+								<!-- wp:post-title {"isLink":true} /-->
 			
 								<!-- wp:post-excerpt {"moreText":"\u003cstrong\u003eContinue reading\u003c/strong\u003e","style":{"spacing":{"margin":{"bottom":"0px"}}}} /-->
 					

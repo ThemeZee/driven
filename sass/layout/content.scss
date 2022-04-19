@@ -1,0 +1,9 @@
+/* Block Gap option for columns not yet supported in 5.9.
+Remove CSS when 6.0 is released. */
+.site-content > .wp-block-columns {
+	gap: 3.5vw;
+
+	> .wp-block-column {
+		margin-left: 0 !important;
+	}
+}
