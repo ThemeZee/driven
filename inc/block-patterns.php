@@ -41,8 +41,7 @@ function driven_register_block_patterns() {
 		'footer-text',
 		'footer-widgets',
 		'sidebar-widgets',
-		'postmeta-blog',
-		'postmeta-single',
+		'postmeta',
 		'posts-list',
 	);
 
