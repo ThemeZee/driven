@@ -115,7 +115,7 @@
 					"text": 1.6
 				},
 				"font-size": {
-					"text": "17px"
+					"text": "clamp(16px, calc(1rem + 0.16vw), 19px)"
 				}
 			}
 		},
@@ -140,35 +140,43 @@
 			"fontSizes": [
 				{
 					"size": "14px",
-					"slug": "tiny"
+					"slug": "tiny",
+					"name": "Tiny"
 				},
 				{
 					"size": "16px",
-					"slug": "small"
+					"slug": "small",
+					"name": "Small"
+				},
+				{
+					"size": "18px",
+					"slug": "normal",
+					"name": "Normal"
 				},
 				{
 					"size": "20px",
-					"slug": "medium"
+					"slug": "medium",
+					"name": "Medium"
 				},
 				{
-					"size": "24px",
-					"slug": "large"
+					"size": "clamp(20px, calc(1rem + 0.83vw), 24px)",
+					"slug": "large",
+					"name": "Large"
 				},
 				{
-					"size": "28px",
-					"slug": "x-large"
+					"size": "clamp(22px, calc(1rem + 1.25vw), 28px)",
+					"slug": "x-large",
+					"name": "Extra Large"
 				},
 				{
-					"size": "36px",
-					"slug": "xx-large"
+					"size": "clamp(24px, calc(1rem + 1.67vw), 36px)",
+					"slug": "xx-large",
+					"name": "Extra Extra Large"
 				},
 				{
-					"size": "48px",
-					"slug": "huge"
-				},
-				{
-					"size": "64px",
-					"slug": "gigantic"
+					"size": "clamp(28px, calc(1rem + 2.5vw), 48px)",
+					"slug": "huge",
+					"name": "Huge"
 				}
 			]
 		},
