@@ -9,13 +9,6 @@
 			]
 		},
 		{
-			"name": "blank-fullwidth",
-			"title": "Blank (Fullwidth)",
-			"postTypes": [
-				"page"
-			]
-		},
-		{
 			"name": "page-fullwidth",
 			"title": "Page (Fullwidth)",
 			"postTypes": [
