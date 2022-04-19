@@ -4,10 +4,15 @@
  * @package Driven
  */
 
+/* Font Size */
+.block-editor-page .editor-styles-wrapper {
+	font-size: var(--wp--custom--typography--font-size--text);
+}
+
 /* Fullwidth Template */
 .driven-fullwidth-page .editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper > *,
 .driven-fullwidth-page .editor-styles-wrapper .block-editor-block-list__layout.is-root-container > * {
-	max-width: calc(1200px - 2 * var(--driven--layout-spacing));
+	max-width: 1200px;
 }
 
 /* Blank Template */

@@ -114,7 +114,7 @@
 			}
 		},
 		"layout": {
-			"contentSize": "765px"
+			"contentSize": "800px"
 		},
 		"typography": {
 			"dropCap": false,
@@ -192,7 +192,7 @@
 					"text": "var(--wp--preset--color--white)"
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--normal)"
 				}
 			},
 			"core/post-content": {
