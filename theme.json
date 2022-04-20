@@ -28,6 +28,13 @@
 			"postTypes": [
 				"page"
 			]
+		},
+		{
+			"name": "page-sidebar-right",
+			"title": "Sidebar Right",
+			"postTypes": [
+				"page"
+			]
 		}
 	],
 	"settings": {
