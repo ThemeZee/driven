@@ -14,6 +14,20 @@
 			"postTypes": [
 				"page"
 			]
+		},
+		{
+			"name": "page-no-title",
+			"title": "No Title",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
+			"name": "page-no-title-fullwidth",
+			"title": "No Title (Fullwidth)",
+			"postTypes": [
+				"page"
+			]
 		}
 	],
 	"settings": {
