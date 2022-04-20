@@ -323,11 +323,7 @@ Remove CSS when 6.0 is released. */
 	}
 }
 
-/* Gutenberg has no margin settings for template parts yet */
-.site-footer.wp-block-template-part {
-	margin-top: 0;
-}
-
+/* Block Alignments */
 .site-content {
 	overflow: hidden;
 }
