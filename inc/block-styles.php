@@ -19,13 +19,6 @@ function driven_register_block_styles() {
 		'style_handle' => 'driven-stylesheet',
 	) );
 
-	// Register Post Meta block style.
-	register_block_style( 'core/group', array(
-		'name'         => 'post-meta',
-		'label'        => esc_html__( 'Post Meta', 'driven' ),
-		'style_handle' => 'driven-stylesheet',
-	) );
-
 	// Register Underlined Heading block style.
 	$underlined_heading_style = array(
 		'name'         => 'underlined-heading',
