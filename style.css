@@ -296,27 +296,6 @@ textarea {
 /*--------------------------------------------------------------
 # - Theme Layout
 --------------------------------------------------------------*/
-:root {
-	--driven--layout-spacing: 1.5rem;
-}
-
-@media only screen and (min-width: 640px) {
-	:root {
-		--driven--layout-spacing: 2rem;
-	}
-}
-
-@media only screen and (min-width: 960px) {
-	:root {
-		--driven--layout-spacing: 3rem;
-	}
-}
-
-@media only screen and (min-width: 1280px) {
-	:root {
-		--driven--layout-spacing: 4rem;
-	}
-}
 
 /* Block Gap option for columns not yet supported in 5.9.
 Remove CSS when 6.0 is released. */
@@ -521,7 +500,7 @@ Remove CSS when 6.0 is released. */
 
 /* Group Block */
 .wp-block-group.has-background {
-	padding: var(--driven--layout-spacing);
+	padding: var(--wp--custom--spacing--elements);
 }
 
 /* Button Block */
