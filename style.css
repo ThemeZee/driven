@@ -349,6 +349,36 @@ Remove CSS when 6.0 is released. */
 	margin-top: 0;
 }
 
+.site-content {
+	overflow: hidden;
+}
+
+.wp-block-post-content > .alignwide,
+.wp-block-post-content > .alignfull {
+	margin-left: calc(-100vw / 2 + 100% / 2);
+	margin-right: calc(-100vw / 2 + 100% / 2);
+}
+
+@media only screen and (min-width: 960px) {
+	.wp-block-post-content > .alignwide {
+		margin-left: -60px;
+		margin-right: -60px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.wp-block-post-content > .alignwide {
+		margin-left: -140px;
+		margin-right: -140px;
+	}
+}
+
+.page-template-page-fullwidth .wp-block-post-content > .alignwide,
+.page-template-page-no-title-fullwidth .wp-block-post-content > .alignwide {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*--------------------------------------------------------------
 # - Theme Blocks
 --------------------------------------------------------------*/
