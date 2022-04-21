@@ -387,12 +387,6 @@ Remove CSS when 6.0 is released. */
 	padding: 1rem;
 }
 
-/* Social Icons Block */
-.wp-block-social-links.is-style-logos-only .wp-social-link svg {
-	width: 24px;
-	height: 24px;
-}
-
 /*--------------------------------------------------------------
 # - Query Blocks
 --------------------------------------------------------------*/
