@@ -5,8 +5,16 @@
 
 .wp-block-post-content > .alignwide,
 .wp-block-post-content > .alignfull {
-	margin-left: calc(-100vw / 2 + 100% / 2);
-	margin-right: calc(-100vw / 2 + 100% / 2);
+	margin-left: -3.5vw;
+	margin-right: -3.5vw;
+}
+
+@media only screen and (min-width: 800px) {
+	.wp-block-post-content > .alignwide,
+	.wp-block-post-content > .alignfull {
+		margin-left: calc(-100vw / 2 + 100% / 2);
+		margin-right: calc(-100vw / 2 + 100% / 2);
+	}
 }
 
 @media only screen and (min-width: 960px) {
