@@ -3,9 +3,9 @@
  * Postmeta block pattern for blog and archive pages
  */
 return array(
-	'title'      => __( 'Footer Widgets', 'driven' ),
-	'categories' => array( 'driven_layout' ),
-	'content'    => '<!-- wp:columns {"style":{"spacing":{"padding":{"top":"2vw","bottom":"2vw"}}}} -->
+	'title'    => __( 'Footer Widgets', 'driven' ),
+	'inserter' => false,
+	'content'  => '<!-- wp:columns {"style":{"spacing":{"padding":{"top":"2vw","bottom":"2vw"}}}} -->
 					<div class="wp-block-columns" style="padding-top:2vw;padding-bottom:2vw">
 
 						<!-- wp:column -->

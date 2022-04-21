@@ -40,6 +40,7 @@ function driven_register_block_patterns() {
 	$block_patterns = array(
 		'footer-text',
 		'footer-widgets',
+		'hero-section',
 		'sidebar-widgets',
 		'postmeta',
 		'posts-list',
