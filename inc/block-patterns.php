@@ -38,6 +38,7 @@ function driven_register_block_patterns() {
 	}
 
 	$block_patterns = array(
+		'feature-columns',
 		'footer-text',
 		'footer-widgets',
 		'hero-section',

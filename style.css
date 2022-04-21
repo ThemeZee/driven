@@ -41,6 +41,10 @@ p.has-background {
 	padding: 1.25rem 1.5rem;
 }
 
+mark.has-inline-color.has-background-color {
+	padding: 2px 5px;
+}
+
 h1.has-background,
 h2.has-background,
 h3.has-background,
