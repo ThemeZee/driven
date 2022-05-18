@@ -2,7 +2,7 @@
 /**
  * Title: Feature Columns
  * Slug: driven/feature-columns
- * Categories: driven_layout
+ * Categories: driven_features
 */
 ?>
 

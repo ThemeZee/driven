@@ -2,7 +2,7 @@
 /**
  * Title: Feature Grid
  * Slug: driven/feature-grid
- * Categories: driven_layout
+ * Categories: driven_features
 */
 ?>
 

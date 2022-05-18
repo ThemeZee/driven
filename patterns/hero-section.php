@@ -2,7 +2,7 @@
 /**
  * Title: Hero Section
  * Slug: driven/hero-section
- * Categories: driven_layout
+ * Categories: driven_hero
 */
 ?>
 

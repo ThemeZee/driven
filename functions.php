@@ -136,8 +136,14 @@ add_filter( 'admin_body_class', 'driven_block_editor_body_classes' );
  */
 function driven_register_block_pattern_categories() {
 	$block_pattern_categories = array(
-		'driven_layout' => array( 'label' => __( 'Driven: Layout', 'driven' ) ),
-		'driven_posts'  => array( 'label' => __( 'Driven: Posts', 'driven' ) ),
+		'driven_page_layouts' => array( 'label' => __( 'Driven: Page Layouts', 'driven' ) ),
+		'driven_blog'         => array( 'label' => __( 'Driven: Blog Posts', 'driven' ) ),
+		'driven_hero'         => array( 'label' => __( 'Driven: Hero', 'driven' ) ),
+		'driven_features'     => array( 'label' => __( 'Driven: Features', 'driven' ) ),
+		'driven_portfolio'    => array( 'label' => __( 'Driven: Portfolio', 'driven' ) ),
+		'driven_services'     => array( 'label' => __( 'Driven: Servicces', 'driven' ) ),
+		'driven_testimonials' => array( 'label' => __( 'Driven: Testimonials', 'driven' ) ),
+		'driven_team'         => array( 'label' => __( 'Driven: Team', 'driven' ) ),
 	);
 
 	/**

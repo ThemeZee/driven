@@ -2,7 +2,7 @@
 /**
  * Title: Posts List
  * Slug: driven/posts-list
- * Categories: driven_posts
+ * Categories: driven_blog
 */
 ?>
 
