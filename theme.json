@@ -37,6 +37,16 @@
 			]
 		}
 	],
+	"patterns": [
+		"feature-columns",
+		"feature-grid",
+		"footer-text",
+		"footer-widgets",
+		"hero-section",
+		"postmeta",
+		"posts-list",
+		"sidebar-widgets"
+	],
 	"settings": {
 		"border": {
 			"color": true,

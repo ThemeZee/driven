@@ -126,8 +126,30 @@ function driven_block_editor_body_classes( $classes ) {
 add_filter( 'admin_body_class', 'driven_block_editor_body_classes' );
 
 
-// Add block patterns.
-require get_template_directory() . '/inc/block-patterns.php';
+/**
+ * Registers block pattern categories.
+ *
+ * @return void
+ */
+function driven_register_block_pattern_categories() {
+	$block_pattern_categories = array(
+		'driven_layout' => array( 'label' => __( 'Driven: Layout', 'driven' ) ),
+		'driven_posts'  => array( 'label' => __( 'Driven: Posts', 'driven' ) ),
+	);
+
+	/**
+	 * Filters the theme block pattern categories.
+	 */
+	$block_pattern_categories = apply_filters( 'driven_block_pattern_categories', $block_pattern_categories );
+
+	foreach ( $block_pattern_categories as $name => $properties ) {
+		if ( ! WP_Block_Pattern_Categories_Registry::get_instance()->is_registered( $name ) ) {
+			register_block_pattern_category( $name, $properties );
+		}
+	}
+}
+add_action( 'init', 'driven_register_block_pattern_categories', 9 );
+
 
 // Add block styles.
 require get_template_directory() . '/inc/block-styles.php';
