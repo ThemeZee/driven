@@ -15,6 +15,9 @@ function driven_setup() {
 
 	// Enqueue editor styles.
 	add_editor_style( 'style.css' );
+
+	// Remove Core block patterns.
+	remove_theme_support( 'core-block-patterns' );
 }
 add_action( 'after_setup_theme', 'driven_setup' );
 
