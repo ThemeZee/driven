@@ -141,7 +141,7 @@ function driven_register_block_pattern_categories() {
 		'driven_hero'         => array( 'label' => __( 'Driven: Hero', 'driven' ) ),
 		'driven_features'     => array( 'label' => __( 'Driven: Features', 'driven' ) ),
 		'driven_portfolio'    => array( 'label' => __( 'Driven: Portfolio', 'driven' ) ),
-		'driven_services'     => array( 'label' => __( 'Driven: Servicces', 'driven' ) ),
+		'driven_services'     => array( 'label' => __( 'Driven: Services', 'driven' ) ),
 		'driven_testimonials' => array( 'label' => __( 'Driven: Testimonials', 'driven' ) ),
 		'driven_team'         => array( 'label' => __( 'Driven: Team', 'driven' ) ),
 	);
