@@ -6,10 +6,10 @@
 */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"3rem","margin":{"bottom":"3rem"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group" style="margin-bottom:3rem">
+<!-- wp:group {"style":{"spacing":{"blockGap":"2rem","margin":{"bottom":"2rem"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="margin-bottom:2rem">
 
-	<!-- wp:group {"style":{"spacing":{"blockGap":"3rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap"}} -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"2rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap"}} -->
 	<div class="wp-block-group">
 
 		<!-- wp:paragraph {"style":{"typography":{"fontSize":"72px","lineHeight":"0.1"}},"textColor":"primary"} -->
@@ -23,7 +23,7 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"style":{"spacing":{"blockGap":"3rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap"}} -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"2rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap"}} -->
 	<div class="wp-block-group">
 
 		<!-- wp:paragraph {"style":{"typography":{"fontSize":"72px","lineHeight":"0.1"}},"textColor":"primary"} -->
@@ -37,7 +37,7 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"style":{"spacing":{"blockGap":"3rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap"}} -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"2rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap"}} -->
 	<div class="wp-block-group">
 
 		<!-- wp:paragraph {"style":{"typography":{"fontSize":"72px","lineHeight":"0.1"}},"textColor":"primary"} -->
@@ -51,7 +51,7 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"style":{"spacing":{"blockGap":"3rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap"}} -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"2rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap"}} -->
 	<div class="wp-block-group">
 
 		<!-- wp:paragraph {"style":{"typography":{"fontSize":"72px","lineHeight":"0.1"}},"textColor":"primary"} -->
