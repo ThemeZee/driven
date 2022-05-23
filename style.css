@@ -336,6 +336,7 @@ Remove CSS when 6.0 is released. */
 .wp-block-post-content > .alignfull {
 	margin-left: -3.5vw;
 	margin-right: -3.5vw;
+	width: auto;
 }
 
 @media only screen and (min-width: 800px) {
