@@ -1,23 +1,33 @@
 <?php
 /**
- * Title: Testimonials Columns
- * Slug: driven/testimonials-columns
+ * Title: Testimonials List Dark
+ * Slug: driven/testimonials-list-dark
  * Categories: driven_testimonials
 */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"},"blockGap":"3rem"}},"backgroundColor":"white","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-background-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"},"blockGap":"3rem"}},"backgroundColor":"dark-gray","textColor":"background","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-background-color has-dark-gray-background-color has-text-color has-background" style="padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
-	<!-- wp:heading {"className":"is-style-underlined-heading"} -->
-	<h2 class="is-style-underlined-heading"><?php _e( 'What clients say', 'driven' ); ?></h2>
-	<!-- /wp:heading -->
+	<!-- wp:columns {"style":{"spacing":{"blockGap":"2rem"}}} -->
+	<div class="wp-block-columns">
 
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
-	<div class="wp-block-columns alignwide">
+		<!-- wp:column {"width":"30%"} -->
+		<div class="wp-block-column" style="flex-basis:30%">
 
-		<!-- wp:column -->
-		<div class="wp-block-column">
+			<!-- wp:heading {"className":"is-style-underlined-heading"} -->
+			<h2 class="is-style-underlined-heading"><?php _e( 'What clients say', 'driven' ); ?></h2>
+			<!-- /wp:heading -->
+
+			<!-- wp:paragraph -->
+			<p><?php _e( 'What customers <br>think about us.', 'driven' ); ?></p>
+			<!-- /wp:paragraph -->
+
+		</div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"70%"} -->
+		<div class="wp-block-column" style="flex-basis:70%">
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"3rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap","verticalAlignment":"top"}} -->
 			<div class="wp-block-group">
@@ -42,12 +52,6 @@
 
 			</div>
 			<!-- /wp:group -->
-
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column -->
-		<div class="wp-block-column">
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"3rem"}},"layout":{"type":"flex","allowOrientation":false,"flexWrap":"nowrap","verticalAlignment":"top"}} -->
 			<div class="wp-block-group">
