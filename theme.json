@@ -353,8 +353,18 @@
 			"area": "header"
 		},
 		{
+			"name": "sidebar",
+			"title": "Sidebar",
+			"area": "general"
+		},
+		{
 			"name": "footer",
-			"title": "Footer",
+			"title": "Footer Large",
+			"area": "footer"
+		},
+		{
+			"name": "footer-small",
+			"title": "Footer Small",
 			"area": "footer"
 		}
 	]
