@@ -335,5 +335,27 @@
 		"spacing": {
 			"blockGap": "var(--wp--custom--spacing--elements)"
 		}
-	}
+	},
+	"templateParts": [
+		{
+			"name": "header",
+			"title": "Header Large",
+			"area": "header"
+		},
+		{
+			"name": "header-small",
+			"title": "Header Small",
+			"area": "header"
+		},
+		{
+			"name": "header-social-icons",
+			"title": "Header with Social Icons",
+			"area": "header"
+		},
+		{
+			"name": "footer",
+			"title": "Footer",
+			"area": "footer"
+		}
+	]
 }
