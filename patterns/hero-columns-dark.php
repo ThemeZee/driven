@@ -16,7 +16,7 @@
 		<div class="wp-block-column is-vertically-aligned-center">
 
 			<!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0px"}}},"className":"is-style-underlined-heading"} -->
-			<h1 class="is-style-underlined-heading" style="margin-top:0px"><?php _e( 'Pursue your passion <br>All dreams can come true', 'driven' ); ?></h1>
+			<h1 class="is-style-underlined-heading" style="margin-top:0px"><?php _e( 'Embrace the future. <br>Use Full Site Editing now.', 'driven' ); ?></h1>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
