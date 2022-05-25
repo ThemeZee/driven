@@ -58,8 +58,22 @@
 		</div>
 		<!-- /wp:column -->
 
+		<!-- wp:column -->
+		<div class="wp-block-column">
+
+			<!-- wp:paragraph {"style":{"typography":{"fontSize":"72px","lineHeight":"1"}},"textColor":"primary"} -->
+			<p class="has-primary-color has-text-color" style="font-size:72px;line-height:1"><strong>04</strong></p>
+			<!-- /wp:paragraph -->
+
+			<!-- wp:paragraph -->
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+			<!-- /wp:paragraph -->
+
 		</div>
-		<!-- /wp:columns -->
+		<!-- /wp:column -->
+
+	</div>
+	<!-- /wp:columns -->
 
 </div>
 <!-- /wp:group -->
