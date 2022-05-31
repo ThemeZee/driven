@@ -20,9 +20,9 @@
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-buttons">
 
-		<!-- wp:button {"backgroundColor":"white","textColor":"dark-gray","className":"is-style-fill"} -->
+		<!-- wp:button {"backgroundColor":"white","textColor":"primary","className":"is-style-fill"} -->
 		<div class="wp-block-button is-style-fill">
-			<a class="wp-block-button__link has-dark-gray-color has-white-background-color has-text-color has-background"><?php _e( 'Join now', 'driven' ); ?></a>
+			<a class="wp-block-button__link has-primary-color has-white-background-color has-text-color has-background"><?php _e( 'Join now', 'driven' ); ?></a>
 		</div>
 		<!-- /wp:button -->
 

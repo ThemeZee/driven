@@ -90,9 +90,9 @@
 					"name": "Gray"
 				},
 				{
-					"slug": "dark-gray",
-					"color": "#202020",
-					"name": "Dark Gray"
+					"slug": "dark-background",
+					"color": "#303030",
+					"name": "Dark Background"
 				}
 			]
 		},
@@ -210,7 +210,7 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--white)",
-			"text": "var(--wp--preset--color--dark-gray)"
+			"text": "var(--wp--preset--color--dark-background)"
 		},
 		"elements": {
 			"h1": {

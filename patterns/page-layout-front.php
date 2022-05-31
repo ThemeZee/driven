@@ -163,8 +163,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"},"blockGap":"3rem","margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"dark-gray","textColor":"white","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-color has-dark-gray-background-color has-text-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"},"blockGap":"3rem","margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"dark-background","textColor":"white","layout":{"contentSize":"1200px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"2rem"}}} -->
 	<div class="wp-block-columns alignwide">
@@ -271,8 +271,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"},"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"dark-gray","textColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-white-color has-dark-gray-background-color has-text-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"},"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"dark-background","textColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-white-color has-dark-background-background-color has-text-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
 	<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
 	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Call to Action', 'driven' ); ?></h2>
@@ -285,9 +285,9 @@
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-buttons">
 
-		<!-- wp:button {"backgroundColor":"white","textColor":"dark-gray","className":"is-style-fill"} -->
+		<!-- wp:button {"backgroundColor":"white","textColor":"dark-background","className":"is-style-fill"} -->
 		<div class="wp-block-button is-style-fill">
-			<a class="wp-block-button__link has-dark-gray-color has-white-background-color has-text-color has-background"><?php _e( 'Join now', 'driven' ); ?></a>
+			<a class="wp-block-button__link has-dark-background-color has-white-background-color has-text-color has-background"><?php _e( 'Join now', 'driven' ); ?></a>
 		</div>
 		<!-- /wp:button -->
 

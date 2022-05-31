@@ -26,8 +26,8 @@
 				<div style="height:150px" aria-hidden="true" class="wp-block-spacer"></div>
 				<!-- /wp:spacer -->
 
-				<!-- wp:group {"style":{"spacing":{"padding":{"top":"3rem","right":"3rem","bottom":"3rem","left":"3rem"}}},"backgroundColor":"white","textColor":"dark-gray","className":"gt-remove-margin-bottom"} -->
-				<div class="wp-block-group gt-remove-margin-bottom has-dark-gray-color has-white-background-color has-text-color has-background" style="padding-top:3rem;padding-right:3rem;padding-bottom:3rem;padding-left:3rem">
+				<!-- wp:group {"style":{"spacing":{"padding":{"top":"3rem","right":"3rem","bottom":"3rem","left":"3rem"}}},"backgroundColor":"white","textColor":"dark-background"} -->
+				<div class="wp-block-group has-dark-background-color has-white-background-color has-text-color has-background" style="padding-top:3rem;padding-right:3rem;padding-bottom:3rem;padding-left:3rem">
 
 					<!-- wp:heading {"className":"is-style-underlined-heading"} -->
 					<h2 class="is-style-underlined-heading"><?php _e( 'Hero Headline', 'driven' ); ?></h2>
