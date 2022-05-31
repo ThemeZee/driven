@@ -5,12 +5,12 @@
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#0088cc",
+					"color": "#e6be00",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#006fb3",
+					"color": "#cca400",
 					"name": "Secondary"
 				},
 				{
@@ -30,7 +30,7 @@
 				},
 				{
 					"slug": "dark-background",
-					"color": "#003c80",
+					"color": "#202020",
 					"name": "Dark Background"
 				}
 			]
