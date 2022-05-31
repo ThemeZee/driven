@@ -271,8 +271,8 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"},"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"dark-gray","textColor":"background","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-background-color has-dark-gray-background-color has-text-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"3.5vw","right":"3.5vw","bottom":"3.5vw","left":"3.5vw"},"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"dark-gray","textColor":"white","layout":{"contentSize":"800px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-white-color has-dark-gray-background-color has-text-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:3.5vw;padding-right:3.5vw;padding-bottom:3.5vw;padding-left:3.5vw">
 
 	<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
 	<h2 class="has-text-align-center has-xx-large-font-size"><?php _e( 'Call to Action', 'driven' ); ?></h2>
