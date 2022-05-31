@@ -75,6 +75,11 @@
 					"name": "Secondary"
 				},
 				{
+					"slug": "dark-background",
+					"color": "#303030",
+					"name": "Dark Background"
+				},
+				{
 					"slug": "white",
 					"color": "#ffffff",
 					"name": "White"
@@ -88,11 +93,6 @@
 					"slug": "gray",
 					"color": "#808080",
 					"name": "Gray"
-				},
-				{
-					"slug": "dark-background",
-					"color": "#303030",
-					"name": "Dark Background"
 				}
 			]
 		},
@@ -210,7 +210,7 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--white)",
-			"text": "var(--wp--preset--color--dark-background)"
+			"text": "#202020"
 		},
 		"elements": {
 			"h1": {
