@@ -14,6 +14,11 @@
 					"name": "Secondary"
 				},
 				{
+					"slug": "dark-background",
+					"color": "#003c80",
+					"name": "Dark Background"
+				},
+				{
 					"slug": "white",
 					"color": "#ffffff",
 					"name": "White"
@@ -27,11 +32,6 @@
 					"slug": "gray",
 					"color": "#808080",
 					"name": "Gray"
-				},
-				{
-					"slug": "dark-background",
-					"color": "#003c80",
-					"name": "Dark Background"
 				}
 			]
 		}
