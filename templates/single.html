@@ -20,7 +20,56 @@
 
 				<!-- wp:post-content /-->
 
-				<!-- wp:post-comments /-->
+				<!-- wp:comments-query-loop -->
+				<div class="wp-block-comments-query-loop">
+
+					<!-- wp:comments-title {"fontSize":"x-large"} /-->
+
+					<!-- wp:comment-template -->
+
+						<!-- wp:columns -->
+						<div class="wp-block-columns">
+
+							<!-- wp:column {"width":"55px"} -->
+							<div class="wp-block-column" style="flex-basis:55px">
+
+								<!-- wp:avatar {"size":55,"style":{"border":{"radius":"0px"},"spacing":{"margin":{"top":"5px"}}}} /-->
+
+							</div>
+							<!-- /wp:column -->
+
+							<!-- wp:column -->
+							<div class="wp-block-column">
+
+								<!-- wp:comment-author-name {"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} /-->
+
+								<!-- wp:group {"style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"flex"}} -->
+								<div class="wp-block-group" style="margin-top:0px;margin-bottom:0px">
+
+									<!-- wp:comment-date /-->
+									<!-- wp:comment-edit-link /-->
+
+								</div>
+								<!-- /wp:group -->
+
+								<!-- wp:comment-content /-->
+
+								<!-- wp:comment-reply-link /-->
+
+							</div>
+							<!-- /wp:column -->
+
+						</div>
+						<!-- /wp:columns -->
+
+					<!-- /wp:comment-template -->
+
+					<!-- wp:comments-pagination /-->
+
+					<!-- wp:post-comments-form /-->
+
+				</div>
+				<!-- /wp:comments-query-loop -->
 
 			</div>
 			<!-- /wp:group -->
