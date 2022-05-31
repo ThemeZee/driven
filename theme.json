@@ -75,31 +75,6 @@
 					"name": "Secondary"
 				},
 				{
-					"slug": "tertiary",
-					"color": "#a10100",
-					"name": "Tertiary"
-				},
-				{
-					"slug": "foreground",
-					"color": "#303030",
-					"name": "Foreground"
-				},
-				{
-					"slug": "background",
-					"color": "#fefefe",
-					"name": "Background"
-				},
-				{
-					"slug": "accent",
-					"color": "#33a2e3",
-					"name": "Accent"
-				},
-				{
-					"slug": "highlight",
-					"color": "#7aca56",
-					"name": "Highlight"
-				},
-				{
 					"slug": "white",
 					"color": "#ffffff",
 					"name": "White"
@@ -118,11 +93,6 @@
 					"slug": "dark-gray",
 					"color": "#202020",
 					"name": "Dark Gray"
-				},
-				{
-					"slug": "black",
-					"color": "#000000",
-					"name": "Black"
 				}
 			]
 		},
@@ -239,8 +209,8 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--background)",
-			"text": "var(--wp--preset--color--foreground)"
+			"background": "var(--wp--preset--color--white)",
+			"text": "var(--wp--preset--color--dark-gray)"
 		},
 		"elements": {
 			"h1": {
