@@ -3,16 +3,16 @@ Author URI: https://themezee.com/
 Theme URI: https://themezee.com/themes/driven/
 Contributors: themezee
 Tags: full-site-editing, template-editing, one-column, blog, news, custom-background, custom-logo, custom-header, custom-menu, grid-layout, entertainment, editor-style, block-styles, block-patterns, rtl-language-support, featured-images, flexible-header, custom-colors, full-width-template, sticky-post, threaded-comments, translation-ready, theme-options, two-columns, three-columns
-Requires at least: 5.9
-Tested up to: 5.9
+Requires at least: 6.0
+Tested up to: 6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Driven is an experimental block theme.
+Driven is a next generation block theme built for the new WordPress Full-Site-Editing experience.
 
 == Description ==
 
-Driven is an experimental block theme featuring a classic two column layout with a right sidebar. With its clean and modern design the theme is perfectly suited for starting a simple blog or news site. Without many bells and whistles, it is an easy way to try out the new Full Site Editing experience of WordPress.
+Driven is a next generation block theme built for the new WordPress Full-Site-Editing experience. It comes with a clean and modern design and is packed with features, including a huge range of block patterns, multiple header and footer block template parts and support for global style variants.
 For more information about Driven please go to https://themezee.com/themes/driven/
 
 == Installation ==
@@ -49,15 +49,11 @@ Driven bundles and uses the following third-party resources:
 License: Distributed under the terms of the MIT License (https://github.com/WPTT/webfont-loader/blob/master/LICENSE)
 Copyright: 2020 Ari Stathopoulos, WordPress Themes Team
 
-2. Barlow Font - https://fonts.google.com/specimen/Barlow
-License: Distributed under the terms of the Open Font License (http://scripts.sil.org/OFL)
-Copyright: Jeremy Tribby
+2. Roboto Font - https://fonts.google.com/specimen/Roboto
+License: Distributed under the terms of the APACHE LICENSE, VERSION 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+Copyright: Christian Robertson
 
-3. Inter Font - https://fonts.google.com/specimen/Inter
-License: Distributed under the terms of the Open Font License (http://scripts.sil.org/OFL)
-Copyright: Rasmus Andersson
-
-4. Images used in screenshot.jpg are from StockSnap
+3. Images used in screenshot.jpg are from StockSnap
 
 a) https://stocksnap.io/photo/street-art-UH8DW5OUDV
 License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
