@@ -30,20 +30,20 @@
 		 }
  
 		 const fullWidthClass = 'driven-fullwidth-page';
-		 const blankClass = 'driven-blank-page';
+		 const noTitleClass = 'driven-no-title-page';
  
 		 if ( 'page-fullwidth' === pageTemplate ) {
 			 document.body.classList.add( fullWidthClass );
-			 document.body.classList.remove( blankClass );
-		 } else if ( 'blank' === pageTemplate ) {
-			 document.body.classList.add( blankClass );
+			 document.body.classList.remove( noTitleClass );
+		 } else if ( 'page-no-title' === pageTemplate || 'blank' === pageTemplate ) {
+			 document.body.classList.add( noTitleClass );
 			 document.body.classList.remove( fullWidthClass );
-		 } else if ( 'blank-fullwidth' === pageTemplate ) {
+		 } else if ( 'page-no-title-fullwidth' === pageTemplate ) {
 			 document.body.classList.add( fullWidthClass );
-			 document.body.classList.add( blankClass );
+			 document.body.classList.add( noTitleClass );
 		 } else {
 			 document.body.classList.remove( fullWidthClass );
-			 document.body.classList.remove( blankClass );
+			 document.body.classList.remove( noTitleClass );
 		 }
 	 }
  

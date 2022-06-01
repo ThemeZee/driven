@@ -15,12 +15,12 @@
 	max-width: 1200px;
 }
 
-/* Blank Template */
-.driven-blank-page.block-editor-page .editor-styles-wrapper {
+/* No Title Template */
+.driven-no-title-page.block-editor-page .editor-styles-wrapper {
 	background-color: var(--wp--preset--color--light-background);
 }
 
-.driven-blank-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper {
+.driven-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper {
 	margin-top: 0;
 	padding: 2rem 0;
 	background-color: #fff;
@@ -29,7 +29,7 @@
 	background-position: 0 0, 10px 10px;
 }
 
-.driven-blank-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper .editor-post-title__block .editor-post-title__input {
+.driven-no-title-page.block-editor-page .edit-post-visual-editor .edit-post-visual-editor__post-title-wrapper .editor-post-title__block .editor-post-title__input {
 	border-bottom: none;
 	padding-bottom: 1rem;
 }

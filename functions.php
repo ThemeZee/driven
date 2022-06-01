@@ -46,7 +46,7 @@ function driven_block_scripts() {
 
 	// Enqueue Page Template Switcher Editor plugin.
 	if ( method_exists( $current_screen, 'is_block_editor' ) && $current_screen->is_block_editor() && 'post' === $current_screen->base ) {
-		wp_enqueue_script( 'driven-page-template-switcher', get_theme_file_uri( '/assets/js/page-template-switcher.js' ), array( 'wp-blocks', 'wp-element', 'wp-edit-post' ), '2022-03-31' );
+		wp_enqueue_script( 'driven-page-template-switcher', get_theme_file_uri( '/assets/js/page-template-switcher.js' ), array( 'wp-blocks', 'wp-element', 'wp-edit-post' ), '2022-06-01' );
 	}
 }
 add_action( 'enqueue_block_editor_assets', 'driven_block_scripts' );
@@ -115,13 +115,13 @@ function driven_block_editor_body_classes( $classes ) {
 	}
 
 	// Fullwidth Page Template?
-	if ( 'blank-fullwidth' === get_page_template_slug( $post->ID ) or 'page-fullwidth' === get_page_template_slug( $post->ID ) ) {
+	if ( 'page-fullwidth' === get_page_template_slug( $post->ID ) or 'page-no-title-fullwidth' === get_page_template_slug( $post->ID ) ) {
 		$classes .= ' driven-fullwidth-page';
 	}
 
 	// No Title Page Template?
-	if ( 'blank' === get_page_template_slug( $post->ID ) or 'blank-fullwidth' === get_page_template_slug( $post->ID ) ) {
-		$classes .= ' driven-blank-page';
+	if ( 'page-no-title' === get_page_template_slug( $post->ID ) or 'page-no-title-fullwidth' === get_page_template_slug( $post->ID ) or 'blank' === get_page_template_slug( $post->ID ) ) {
+		$classes .= ' driven-no-title-page';
 	}
 
 	return $classes;
