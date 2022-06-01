@@ -1,7 +1,8 @@
 <?php
 /**
- * Title: Posts List
- * Slug: driven/posts-list
+ * Title: Default List View
+ * Slug: driven/blog-posts-list
+ * Block Types: core/query
  * Categories: driven_blog
 */
 ?>
