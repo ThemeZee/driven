@@ -59,10 +59,10 @@
 			"text": true,
 			"link": true,
 			"custom": true,
-			"customDuotone": false,
-			"customGradient": false,
-			"defaultGradients": false,
-			"defaultPalette": false,
+			"customDuotone": true,
+			"customGradient": true,
+			"defaultGradients": true,
+			"defaultPalette": true,
 			"palette": [
 				{
 					"slug": "primary",
@@ -78,11 +78,6 @@
 					"slug": "dark-background",
 					"color": "#303030",
 					"name": "Dark Background"
-				},
-				{
-					"slug": "white",
-					"color": "#ffffff",
-					"name": "White"
 				},
 				{
 					"slug": "light-gray",

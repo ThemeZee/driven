@@ -19,11 +19,6 @@
 					"name": "Dark Background"
 				},
 				{
-					"slug": "white",
-					"color": "#ffffff",
-					"name": "White"
-				},
-				{
 					"slug": "light-gray",
 					"color": "#e0e0e0",
 					"name": "Light Gray"
