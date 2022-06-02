@@ -478,23 +478,14 @@ Remove CSS when 6.0 is released. */
 }
 
 /* Query Pagination Block */
-.wp-block-query-pagination {
-	padding: 0.5rem;
-}
-
 .wp-block-query-pagination > .wp-block-query-pagination-numbers {
 	margin-bottom: 0;
 }
 
 .wp-block-query-pagination .page-numbers {
 	display: inline-block;
-	padding: 0.5rem 1rem;
 	font-weight: bold;
-	text-decoration: none;
-}
-
-.wp-block-query-pagination .page-numbers:hover, .wp-block-query-pagination .page-numbers:focus, .wp-block-query-pagination .page-numbers:active {
-	text-decoration: underline;
+	margin-right: 1.5rem;
 }
 
 /*--------------------------------------------------------------
