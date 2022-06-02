@@ -20,7 +20,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'Driven is an experimental block theme featuring a classic two column layout with a right sidebar. With its clean and modern design the theme is perfectly suited for starting a simple blog or news site. Without many bells and whistles, it is an easy way to try out the new Full Site Editing experience of WordPress.', 'driven' ); ?></p>
+			<p><?php _e( 'Driven is a next generation block theme built for the new WordPress Full-Site-Editing experience. It comes with a clean and modern design and is packed with features, including a huge range of block patterns, multiple header and footer block template parts and support for global style variants.', 'driven' ); ?></p>
 			<!-- /wp:paragraph -->
 
 		</div>
