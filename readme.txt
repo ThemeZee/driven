@@ -23,7 +23,10 @@ For more information about Driven please go to https://themezee.com/themes/drive
 
 == Changelog ==
 
-= 1.0 - 2022-04-05 =
+= 1.0.1 - 2022-06-02 =
+* updated information about theme screenshot in readme.txt
+
+= 1.0 - 2022-06-01 =
 * Initial Release
 
 == Copyright ==
@@ -53,16 +56,8 @@ Copyright: 2020 Ari Stathopoulos, WordPress Themes Team
 License: Distributed under the terms of the APACHE LICENSE, VERSION 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
 Copyright: Christian Robertson
 
-3. Images used in screenshot.jpg are from StockSnap
+3. Image used in screenshot.png is from StockSnap
 
-a) https://stocksnap.io/photo/street-art-UH8DW5OUDV
+https://stocksnap.io/photo/architecture-building-RV2H4VBE3L
 License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
-Copyright: Bernard Spragg (https://stocksnap.io/author/bernardspragg)
-
-b) https://stocksnap.io/photo/colorful-buildings-VLZ1NCPYDR
-License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
-Copyright: Bernard Spragg (https://stocksnap.io/author/bernardspragg)
-
-c) https://stocksnap.io/photo/street-art-KZV4NUANRZ
-License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
-Copyright: Bernard Spragg (https://stocksnap.io/author/bernardspragg)
+Copyright: Lance Anderson (https://stocksnap.io/author/450)
