@@ -318,11 +318,6 @@
 			"area": "header"
 		},
 		{
-			"name": "sidebar",
-			"title": "Sidebar",
-			"area": "general"
-		},
-		{
 			"name": "footer",
 			"title": "Footer Large",
 			"area": "footer"
