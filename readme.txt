@@ -23,6 +23,11 @@ For more information about Driven please go to https://themezee.com/themes/drive
 
 == Changelog ==
 
+= 1.0.3 - 2022-08-18 =
+* added two new color style variants
+* changed default dark background color
+* improved styling of separator block in footer area
+
 = 1.0.2 - 2022-06-07 =
 * fixed PHP notice in block editor
 
