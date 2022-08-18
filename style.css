@@ -327,6 +327,10 @@ Remove CSS when 6.0 is released. */
 	}
 }
 
+.site-footer .wp-block-separator {
+	background: rgba(255, 255, 255, 0.2);
+}
+
 /* Block Alignments */
 .site-content {
 	overflow: hidden;
